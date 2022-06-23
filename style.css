@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calc{
+  background-color: #000000c0;
+  height: 575px;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.screen{
+  cursor: auto;
+  padding: 0px 30px;
+  font-size: 35px;
+  color: white;
+  background-color: #151515;
+  height: 130px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.nama{
+  color: #ffffff;
+  font-size: 15px;
+  margin: 7px 5px;
+  transition: 0.5s;
+}
+
+.nama:hover{
+  cursor: pointer;
+  color: #6171ff;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.button3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.button4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.tombol1{
+  color: #ffffff;
+  background-color: #151515;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  height: 90px;
+  width: 90px;
+  transition: 0.5s;
+}
+
+.tombol1:hover{
+  cursor: pointer;
+  color: #6171ff;
+  background-color: #000000;
+}
+
+.tombol2{
+  color: #ffffff;
+  background-color: #151515;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.tombol2:hover{
+  cursor: pointer;
+  color: #6171ff;
+  background-color: #000000;
+}

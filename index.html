@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="calc">
+      <form name="form">
+        <input class="screen" name="screen" placeholder="0" readonly></input>
+        <p id="nama" class="nama" onclick="Welcome()">Siapa nama anda?</p>
+        <div class="button">
+          <div class="button1">
+            <input type="button" value="1" class="tombol1" onclick="form.screen.value += '1' "></input>
+            <input type="button" value="2" class="tombol1" onclick="form.screen.value += '2' "></input>
+            <input type="button" value="3" class="tombol1" onclick="form.screen.value += '3' "></input>
+            <input type="button" value="+" class="tombol1" onclick="Tambah()"></input>
+          </div>
+          <div class="button2">
+            <input type="button" value="4" class="tombol1" onclick="form.screen.value += '4' "></input>
+            <input type="button" value="5" class="tombol1" onclick="form.screen.value += '5' "></input>
+            <input type="button" value="6" class="tombol1" onclick="form.screen.value += '6' "></input>
+            <input type="button" value="-" class="tombol1" onclick="Kurang()"></input>
+          </div>
+          <div class="button3">
+            <input type="button" value="7" class="tombol1" onclick="form.screen.value += '7' "></input>
+            <input type="button" value="8" class="tombol1" onclick="form.screen.value += '8' "></input>
+            <input type="button" value="9" class="tombol1" onclick="form.screen.value += '9' "></input>
+            <input type="button" value="x" class="tombol1" onclick="Kali()"></input>
+          </div>
+          <div class="button4">
+            <input type="button" value="<" class="tombol1" onclick="Hapus()"></input>
+            <input type="button" value="0" class="tombol1" onclick="form.screen.value += '0' "></input>
+            <input type="button" value="=" class="tombol1" onclick="Samadengan()"></input>
+            <input type="button" value="/" class="tombol1" onclick="Bagi()"></input>
+          </div>
+          <input type="button" value="Clear" class="tombol2" onclick="Bersih()">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
